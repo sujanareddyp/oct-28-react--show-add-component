@@ -1,7 +1,5 @@
 export const trelloReducer = (state = {
-    'To-do': ["Todo1", "Todo2"],
-    'Doing': ["Doing1"],
-    'Done': ["Doing2"]
+    'To-do': ["Todo1", "Todo2"]
 }, action) => {
     switch (action.type) {
         case 'ADD_NEW_LIST':
